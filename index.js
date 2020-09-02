@@ -35,7 +35,7 @@ app.use((error, req, res, next) => {
   });
 });
 
-const port = process.env.PORT || 1337;
+const port = process.env.PORT || 80;
 app.listen(port, () => {
   console.log(`Listening at http://localhost:${port}`);
 });
